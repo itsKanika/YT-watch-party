@@ -1,0 +1,12 @@
+{
+  "name": "youtube-watch-party",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install --include=dev",
+    "build": "npm run install:all && npm --prefix client run build",
+    "start": "node server/src/index.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  },
+  "engines": { "node": ">=18" }
+}
