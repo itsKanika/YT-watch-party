@@ -13,7 +13,7 @@ import { initDb, saveRoom, loadRoom } from './db.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = process.env.PORT || 4000;
-const origins = (process.env.CLIENT_URL || 'http://localhost:5173').split(',').map((s) => s.trim());
+const origins = (process.env.CLIENT_URL || 'http://localhost:5173,https://yt-watch-party-nh3y.vercel.app').split(',').map((s) => s.trim());
 
 const app = express();
 app.use(cors({ origin: origins }));
