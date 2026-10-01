@@ -8,10 +8,17 @@ Watch YouTube together in real time. Create a room, share the code, and everyone
 | **Backend (API + WebSocket)** | https://yt-watch-party-wy65.onrender.com (`/health`) |
 | **Source** | https://github.com/itsKanika/YT-watch-party |
 
-## 📸 Demo Vedio
+## 📸 Demo Vedio and screenshots
+
+
 
 https://drive.google.com/file/d/1d21G-slOjeGMIdbcYzikV1X6B1IsCZGE/view?usp=drive_link
+---
 
+
+<img width="1435" height="826" alt="Screenshot 2026-10-01 at 9 14 03 PM" src="https://github.com/user-attachments/assets/cfc622cf-e450-4d1d-b579-5a401dda4bc8" />
+<img width="1440" height="828" alt="Screenshot 2026-10-01 at 9 14 46 PM" src="https://github.com/user-attachments/assets/87b62884-8c0b-4eac-80a0-26de4ebf81fe" />
+<img width="1440" height="833" alt="Screenshot 2026-10-01 at 9 15 23 PM" src="https://github.com/user-attachments/assets/89da18db-58cb-4cf4-a889-53fa7e791289" />
 
 ---
 
