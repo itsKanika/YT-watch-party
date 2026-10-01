@@ -1,11 +1,9 @@
-
 export const SERVER_URL: string =
-  import.meta.env.VITE_SERVER_URL || (import.meta.env.DEV ? 'https://yt-watch-party-wy65.onrender.com' : window.location.origin);
+  import.meta.env.VITE_SERVER_URL || 'https://yt-watch-party-wy65.onrender.com';
 
 export type Role = 'host' | 'moderator' | 'participant';
 export interface Person { userId: string; username: string; role: Role; online: boolean }
 export interface Session { token: string; username: string }
-
 export const getSession = (roomId: string): Session | null => {
   try { return JSON.parse(sessionStorage.getItem('wp:' + roomId) || 'null'); } catch { return null; }
 };
