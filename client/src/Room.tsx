@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { io, Socket } from 'socket.io-client';
 import { Check, Copy, Crown, LogOut, Pause, Play, Send, Shield, UserX, X, Youtube, Volume2 } from 'lucide-react';
-import { SERVER_URL, fmt, getSession, setSession, type Person, type Role } from './lib';
+import { https://yt-watch-party-wy65.onrender.com, fmt, getSession, setSession, type Person, type Role } from './lib';
 
 declare global { interface Window { YT: any; onYouTubeIframeAPIReady?: () => void } }
 
