@@ -23,12 +23,12 @@ export default function EntryDialog({ kind, onClose }: { kind: DialogKind; onClo
         if (m) id = m[1];
         id = id.toUpperCase();
         if (!id) throw new Error('Enter a room code');
-        const r = await fetch(`${https://yt-watch-party-wy65.onrender.com}/api/rooms/${id}`);
+        const r = await fetch(`${SERVER_URL}/api/rooms/${id}`);
         if (!r.ok) throw new Error('Room not found');
         sessionStorage.removeItem('wp:' + id);
         window.location.assign('/room/' + id + '?n=' + encodeURIComponent(username.trim()));
       } else {
-        const r = await fetch(`${https://yt-watch-party-wy65.onrender.com}/api/rooms`, {
+        const r = await fetch(`${SERVER_URL}/api/rooms`, {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ username: username.trim() }),
         });
