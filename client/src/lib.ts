@@ -1,6 +1,6 @@
 // In production the React build is served by the same Node server, so use same-origin.
 export const SERVER_URL: string =
-  import.meta.env.VITE_SERVER_URL || (import.meta.env.DEV ? 'https://yt-watch-party-wy65.onrender.com' : window.location.origin);
+  import.meta.env.https://yt-watch-party-wy65.onrender.com || (import.meta.env.DEV ? 'https://yt-watch-party-wy65.onrender.com' : window.location.origin);
 
 export type Role = 'host' | 'moderator' | 'participant';
 export interface Person { userId: string; username: string; role: Role; online: boolean }
