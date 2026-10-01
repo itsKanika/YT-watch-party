@@ -8,9 +8,10 @@ Watch YouTube together in real time. Create a room, share the code, and everyone
 | **Backend (API + WebSocket)** | https://yt-watch-party-wy65.onrender.com (`/health`) |
 | **Source** | https://github.com/itsKanika/YT-watch-party |
 
-> The backend runs on Render's free tier and sleeps when idle. The first request after a pause can take 30 to 60 seconds. Open `/health` once to wake it.
+## 📸 Demo Vedio
 
-![Landing page](docs/landing.png) <!-- add a screenshot or demo GIF here -->
+https://drive.google.com/file/d/1d21G-slOjeGMIdbcYzikV1X6B1IsCZGE/view?usp=drive_link
+
 
 ---
 
